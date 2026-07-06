@@ -1,15 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first website</title>
 </head>
+<center>
 <body>
-<h1>william</h1>
-<h1>New name</h1>
-<img width="200px" src="profile.webp" alt="">
-<p>my profile picture</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero ad consequuntur unde illo quos voluptas obcaecati ipsum odit minima a esse, quod accusantium dolorum aspernatur deserunt enim in non.</p>
+<h1>Haseem</h1>
+<br><a href="https://www.flipkart.com/">flipkart</a><br>
+<img width="200px" src="haseem beach.jpeg" alt="haseem img">
+<br><img width="200px"src="super raffi.jpeg" alt="raffi"> <br>
+<p> <h1>Characters for this project </h1>
+MH - 50rupess (Antagonist) Doctor strange like
+PK - no salary because he is a producer Ramayana character Hero 
+Heroine - not confirmed
+Villains adiyatkal - Syed Farzan ali salary and Arfaq 20rupees 
+ Tamim salary 60rupees writter and director
+VFX and Editing: Siddick salary for him 60rupees
+Main villain: Rafioolver salary for him 70
+Camera man: Musfar No salary friendly worker
+Post production: Anas 66 no salary friendly worker 
+Script visualizer: MH
+Dialogue and fight work by siddick 
+Overall promotions by Ayya sri pk anadavar
+[12:08 pm, 16/04/2026] thamimbasha7358: Overall movie budget was: 260 remaining 240 balance 
+500 minus 260
+240 for the use of promotion work </p>
+<table> <th><h1>SUPER RAFFI YUM MATRUM SETTAI PIDITHA BEACH PAIYANUM </h1></th></table>
+<table><th> characters informations </th></table>
+<table [ align="center"|"left"|"right" ] [ border=n 200px ] [ height=30% ] [ width=30% ] [ cellpadding=n px] [ cellspacing= n px ] >
+<caption> cast details</caption>
+<tr>
+<th>cast information </th>
+</tr>
+<tr>
+<td> raffi hero</td>
+</tr>
+<tr>
+<td>haseem hero</td>
+</tr>
+<tr>
+    <td>parvez khan ayya pk anadavar productions valangum</td>
+</table>
+<button>submit report</button>
+<!-- HTML Part -->
+<form id="myReportForm">
+  <!-- Unga report fields inga irukkum (example: text area) -->
+  <textarea id="reportText" placeholder="Write your report here..."></textarea>
+  
+  <!-- Inga thaan unga submit button iruku -->
+  <button type="submit" id="submitReportBtn">Submit Report</button>
+</form>
+
+<div id="statusMessage"></div>
+
+<!-- JavaScript Part -->
+<script>
+  // 1. First, form matrum button elements-a select panrom
+  anna enna nadakkanumo atha ezhuthalam
+    // Ippo logic success aana mari oru alert/message kaatrom
+    statusMessage.style.color = "green";
+    statusMessage.innerText = "Yesss! Unga report success-ah submit aaidichu! 🎉";
+const reportForm = document.getElementById('myReportForm');
+  const statusMessage = document.getElementById('statusMessage');
+
+  // 2. Form submit aagum bodu enna nadakkanum nu click event add panrom
+  reportForm.addEventListener('submit', function(event) {
+    // Page automatic ah refresh aagama irukka ithu romba mukkiyam
+    event.preventDefault(); 
+
+    // 3. User type panna data-va edukkurom (Optional)
+    const reportContent = document.getElementById('reportText').value;
+
+    if(reportContent.trim() === "") {
+        statusMessage.style.color = "red";
+        statusMessage.innerText = "Please write something before submitting!";
+        return;
+    }
+
+    // 4. Inga neenga submit p
+    // Form-ah clear panna:
+    reportForm.reset();
+  });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permanent Black Theme</title>
+  
+  <style>
+    /* 1. Full page background-ai permanent-ah black color-ah maathuroom */
+    body {
+      background-color: #000000; /* Pure Black Background */
+      color: #ffffff;            /* Pure White Text */
+      font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+    }
+
+    /* 2. Textarea matching code (Black background theme-ku set aagura mari) */
+    textarea {
+      background-color: #1a1a1a; /* Dark grey input box */
+      color: #ffffff;            /* Input panra text-um white-ah theriyum */
+      border: 1px solid #444444;
+      padding: 12px;
+      width: 300px;
+      height: 100px;
+      border-radius: 6px;
+    }
+
+    /* 3. SUBMIT BUTTON DESIGN: Permanent Black and White text */
+    #submitReportBtn {
+      background-color: #ffffff; /* Button permanent-ah white color-la irukkum */
+      color: #000000;            /* Button text pure black-la high visibility-oda irukkum */
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 700;          /* Text nalla thick bold-ah theriyum */
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Submit Your Report</h2>
+
+  <form>
+    <textarea placeholder="Write your report here..."></textarea>
+    <br>
+    <!-- Permanent high visibility button -->
+    <button type="submit" id="submitReportBtn">Submit Report</button>
+    
+  </form>
+
 </body>
+</html>
+</body>
+</center>
 </html>
